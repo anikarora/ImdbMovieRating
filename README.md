@@ -1,20 +1,17 @@
 Imdb Movie Rating - Big Data Analytics
 ======================
-
 + Author: Anik Arora.
 
-Description
+#### Description
 -----------
 Implement several map reduce design patterns to derive some statistics from IMDB movie data using Hadoop framework. 
 
 #### Dataset
-
 + movies.dat MovieID::Title::Genres
 + users.dat UserID::Gender::Age::Occupation::Zip-code
 + ratings.dat UserID::MovieID::Rating::Timestamp
 
 #### Map Reduce Design
-
 + Given a input zipcode, find all the user-ids that belongs to that zipcode. You must take the input zipcode in command line.
 + Find top 10 average rated movies with descending order of rating.
 + Find all the user ids who has rated at least n movies.
